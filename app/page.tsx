@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white dark:bg-zinc-950">
+    <div className="min-h-screen b00g-white dark:bg-zinc-950">
       <div className="mx-auto max-w-5xl px-8 py-12 md:px-12 lg:px-16">
         <div className="print-grid grid grid-cols-1 gap-8 lg:grid-cols-3">
           {/* Main Content - Left Column */}
@@ -44,8 +46,8 @@ export default function Home() {
                   <li>Defined technical strategy and product roadmap for client transformation projects.</li>
                   <li>Architected and deployed production-ready AI applications including:</li>
                   <ul className="ml-6 list-none space-y-1">
-                    <li><strong>Brekky.news:</strong> News aggregation platform using clustering and timeline generation to group related stories.</li>
-                    <li><strong>ChitChad.com:</strong> Multi-user AI chat platform enabling collaborative conversations with LLMs.</li>
+                    <li><strong><Link href="https://brekky.news" target="_blank">Brekky.news</Link>:</strong> News aggregation platform using clustering and timeline generation to group related stories.</li>
+                    <li><strong><Link href="https://chitchad.com" target="_blank">CHAD</Link>:</strong> Multi-user AI chat platform enabling collaborative conversations with LLMs.</li>
                   </ul>
                 </ul>
               </div>
