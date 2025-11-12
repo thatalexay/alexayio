@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-zinc-950">
       <div className="mx-auto max-w-5xl px-8 py-12 md:px-12 lg:px-16">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+        <div className="print-grid grid grid-cols-1 gap-8 lg:grid-cols-3">
           {/* Main Content - Left Column */}
           <div className="lg:col-span-2">
             {/* Header */}
