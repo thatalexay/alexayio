@@ -33,8 +33,8 @@ export const experiences: ExperienceItem[] = [
     description:
       "Built and scaled a livestream commerce platform for vintage fashion, connecting independent sellers with global audiences. Led technical vision, product development, and analytics strategy.",
     highlights: [
-      "Directed full product lifecycle — from architecture and mobile app development (Flutter, Firebase) to livestream infrastructure and backend systems.",
-      "Delivered end-to-end platform across iOS, Android, and web, supporting multi-user livestream sessions",
+      "Implemented referral system that increased MAU by 20% in a 2 week period.",
+      "Led development team to deliver end-to-end platform across iOS, Android, and web, supporting multi-user livestream sessions",
       "Drove roadmap decisions aligned with user behavior insights and monetization strategies.",
     ],
   },
@@ -53,7 +53,7 @@ export const experiences: ExperienceItem[] = [
     role: "Technical Operations Manager",
     period: "Jun 2015 - Jan 2017",
     description:
-      "Led regional adtech operations across publisher and agency partnerships. Oversaw campaign delivery, optimization, and technical onboarding for partners.",
+      "Expanded publisher network by 200% and increased ad inventory by 500% across APAC.Led regional adtech operations across publisher and agency partnerships. Oversaw campaign delivery, optimization, and technical onboarding for partners.",
   },
   {
     company: "Investible.vc (Hong Kong)",
@@ -74,7 +74,7 @@ export const experiences: ExperienceItem[] = [
     role: "Development and Technology Head",
     period: "Oct 2010 - Apr 2013",
     description:
-      "Led engineering and digital production at one of Hong Kong's leading agencies (later acquired by PwC). Directed multi-disciplinary teams delivering large-scale digital campaigns for enterprise clients. Defined technical standards, oversaw budgets, and introduced agile delivery practices.",
+      "Led development and digital production at one of Hong Kong's leading agencies (later acquired by PwC). Directed multi-disciplinary teams delivering large-scale digital campaigns for enterprise clients.",
   },
 ];
 
