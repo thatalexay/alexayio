@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Alex Au-Yeung Portfolio & CV
+
+A modern, print-friendly portfolio and CV website built with Next.js 16, React 19, and Tailwind CSS v4.
+
+## Overview
+
+This is a personal portfolio and digital CV showcasing 20+ years of technical leadership and full-stack development experience. The site is optimized for both web viewing and printing, with comprehensive SEO metadata and structured data.
+
+## Tech Stack
+
+- **Framework**: Next.js 16.0.1 with App Router
+- **React**: 19.2.0 (Server Components by default)
+- **TypeScript**: Strict type checking enabled
+- **Styling**: Tailwind CSS v4 (inline configuration)
+- **Font**: Inter (variable font via next/font)
+
+## Features
+
+- **Responsive Design**: Mobile-first, responsive layout with dark mode support
+- **Print-Optimized**: Maintains 2-column layout when printing to PDF
+- **SEO Optimized**: Comprehensive metadata, Open Graph tags, and JSON-LD structured data
+- **Component-Based**: Modular architecture with reusable components
+- **Data-Driven**: CV content managed in a separate data file for easy updates
+
+## Project Structure
+
+```
+app/
+├── components/          # React components
+│   ├── Footer.tsx      # Client component with print functionality
+│   ├── SkillsSection.tsx
+│   ├── ExperienceSection.tsx
+│   └── EducationSection.tsx
+├── data/
+│   └── resume.ts       # CV content (experiences, education, skills, personal info)
+├── page.tsx            # Homepage
+├── layout.tsx          # Root layout with metadata
+└── globals.css         # Global styles and print CSS
+```
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Updating CV Content
 
-## Learn More
+All CV content is managed in [app/data/resume.ts](app/data/resume.ts):
 
-To learn more about Next.js, take a look at the following resources:
+- `experiences` - Work experience entries
+- `education` - Education history
+- `skills` - Skills organized by category
+- `personalInfo` - Contact information and bio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Building for Production
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+npm start
+```
 
-## Deploy on Vercel
+### Print Functionality
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Click the "Print CV" button in the footer to open the print dialog. The layout automatically adjusts for A4 printing with proper margins and a 2-column layout.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## SEO & Metadata
+
+The site includes:
+- Comprehensive metadata in [app/layout.tsx](app/layout.tsx)
+- JSON-LD structured data (Schema.org Person type)
+- Open Graph tags for social media
+- Twitter Card metadata
+- Sitemap and robots.txt configuration
+
+## Documentation
+
+For detailed project information, see [CLAUDE.md](CLAUDE.md).
+
+## License
+
+© 2025 Alex Au-Yeung. All rights reserved.

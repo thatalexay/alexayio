@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/profile-500x500.jpg",
+        url: "/profile-500x500.png",
         width: 500,
         height: 500,
         alt: "Alex Au-Yeung - Technical Leader & Founder",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Alex Au-Yeung | Technical Leader & Founder",
     description: "Technical Leader & Founder with 20+ years building and scaling digital products",
-    images: ["/profile-500x500.jpg"],
+    images: ["/profile-500x500.png"],
   },
   robots: {
     index: true,
