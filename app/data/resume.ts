@@ -124,10 +124,10 @@ export const skills: Skill[] = [
 export const personalInfo = {
   name: "Alex Au-Yeung",
   title: "Technical Leader & Founder",
-  phone: "+61 0472 605 905",
+  phone: "+61472605905",
   email: "alex@a-y.io",
-  linkedin: "https://www.linkedin.com/in/thatalexay/",
-  github: "https://github.com/alexauyeung",
-  bio: "with 20+ years building and scaling digital products across startups, adtech, and ecommerce. Blends hands-on engineering with strategic leadership — from architecting full-stack systems in React, NextJS, and Flutter to leading distributed teams and shipping AI-driven consumer products. Proven record of turning ideas into market-ready platforms, including a livestream marketplace and multi-user AI chat app.",
+  linkedin: "https://linkedin.com/in/thatalexay/",
+  github: "https://github.com/thatalexay/",
+  bio: "With 20+ years building and scaling digital products across startups, adtech, and ecommerce. Blends hands-on engineering with strategic leadership — from architecting full-stack systems in React, NextJS, and Flutter to leading distributed teams and shipping AI-driven consumer products. Proven record of turning ideas into market-ready platforms, including a livestream marketplace and multi-user AI chat app.",
   languages: ["English", "Cantonese", "Mandarin"],
 };

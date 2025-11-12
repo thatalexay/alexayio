@@ -13,7 +13,7 @@ export default function Home() {
     jobTitle: "Technical Leader & Founder",
     url: "https://a-y.io",
     email: "alex@a-y.io",
-    telephone: "+61-0472-605-905",
+    telephone: "+61472605905",
     address: {
       "@type": "PostalAddress",
       addressCountry: "AU",
@@ -103,7 +103,17 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="text-sm font-bold text-blue-600 underline hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
                 >
-                  linkedin.com/in/thatalexay
+                  {personalInfo.linkedin.replace("https://", "")}
+                </a>
+              </p>
+              <p>
+                <a
+                  href={personalInfo.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-bold text-blue-600 underline hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
+                >
+                  {personalInfo.github.replace("https://", "")}
                 </a>
               </p>
             </div>
