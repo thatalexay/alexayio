@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const jsonLd = {
@@ -310,11 +311,13 @@ export default function Home() {
                 Languages
               </h2>
               <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                English | Chinese (Cantonese) | Chinese (Mandarin)
+                English | Cantonese | Mandarin
               </p>
             </section>
           </aside>
         </div>
+
+        <Footer />
       </div>
       </div>
     </>

@@ -48,7 +48,7 @@ a:hover{
     background: white !important;
     color: black !important;
   }
-  
+
 
    a{
      color: #000000 !important;
@@ -80,5 +80,10 @@ a:hover{
   * {
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
+  }
+
+  /* Hide footer on print */
+  .print\:hidden {
+    display: none !important;
   }
 }
