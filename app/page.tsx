@@ -1,9 +1,58 @@
 import Link from "next/link";
 
 export default function Home() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Alex Au-Yeung",
+    jobTitle: "Technical Leader & Founder",
+    url: "https://a-y.io",
+    email: "alex@a-y.io",
+    telephone: "+61-0472-605-905",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "AU",
+    },
+    sameAs: [
+      "https://www.linkedin.com/in/thatalexay/",
+      "https://github.com/alexauyeung",
+    ],
+    alumniOf: [
+      {
+        "@type": "EducationalOrganization",
+        name: "Swinburne University of Technology",
+        location: "Melbourne, Australia",
+      },
+      {
+        "@type": "EducationalOrganization",
+        name: "University of Hong Kong",
+        location: "Hong Kong",
+      },
+    ],
+    knowsAbout: [
+      "React",
+      "NextJS",
+      "Flutter",
+      "Full Stack Development",
+      "Product Architecture",
+      "Technical Leadership",
+      "AI Products",
+      "Livestream Commerce",
+      "Adtech",
+      "Ecommerce",
+    ],
+    description:
+      "Technical Leader & Founder with 20+ years building and scaling digital products across startups, adtech, and ecommerce. Full-stack engineer specializing in React, NextJS, Flutter, and AI-driven products.",
+  };
+
   return (
-    <div className="min-h-screen b00g-white dark:bg-zinc-950">
-      <div className="mx-auto max-w-5xl px-8 py-12 md:px-12 lg:px-16">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="min-h-screen bg-white dark:bg-zinc-950">
+        <div className="mx-auto max-w-5xl px-8 py-12 md:px-12 lg:px-16">
         <div className="print-grid grid grid-cols-1 gap-8 lg:grid-cols-3">
           {/* Main Content - Left Column */}
           <div className="lg:col-span-2">
@@ -66,7 +115,7 @@ export default function Home() {
                 </p>
                 <ul className="ml-4 list-disc space-y-1 text-sm text-zinc-600 dark:text-zinc-400">
                   <li>Directed full product lifecycle — from architecture and mobile app development (Flutter, Firebase) to livestream infrastructure and backend systems.</li>
-                  <li>Delivered end-to-end platform across iOS, Android, and web, supporting multi-user livestreams</li>
+                  <li>Delivered end-to-end platform across iOS, Android, and web, supporting multi-user livestream sessions</li>
                   <li>Drove roadmap decisions aligned with user behavior insights and monetization strategies.</li>
                 </ul>
               </div>
@@ -267,6 +316,7 @@ export default function Home() {
           </aside>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }
