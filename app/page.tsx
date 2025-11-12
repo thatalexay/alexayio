@@ -13,7 +13,7 @@ export default function Home() {
               <p className="mb-2 text-sm font-bold text-zinc-900 dark:text-zinc-100">
                 Technical Leader & Founder
               </p>
-              <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+              <p className="text-xs leading-relaxed text-zinc-600 dark:text-zinc-400">
                 with 20+ years building and scaling digital products across startups, adtech, and ecommerce.
                 Blends hands-on engineering with strategic leadership — from architecting full-stack systems in
                 React, NextJS, and Flutter to leading distributed teams and shipping AI-driven consumer products.
@@ -47,7 +47,6 @@ export default function Home() {
                     <li><strong>Brekky.news:</strong> News aggregation platform using clustering and timeline generation to group related stories.</li>
                     <li><strong>ChitChad.com:</strong> Multi-user AI chat platform enabling collaborative conversations with LLMs.</li>
                   </ul>
-                  <li>Guided business owners on product-market fit, scalability, and technical hiring strategies.</li>
                 </ul>
               </div>
 
@@ -65,9 +64,7 @@ export default function Home() {
                 </p>
                 <ul className="ml-4 list-disc space-y-1 text-sm text-zinc-600 dark:text-zinc-400">
                   <li>Directed full product lifecycle — from architecture and mobile app development (Flutter, Firebase) to livestream infrastructure and backend systems.</li>
-                  <li>Delivered end-to-end platform across iOS, Android, and web, supporting hundreds of live sessions and thousands of users.</li>
-                  <li>Implemented analytics dashboards to track engagement and sales metrics, increasing retention by 30%.</li>
-                  <li>Managed cross-functional teams spanning engineering, UX, and marketing, ensuring smooth scaling during peak growth periods.</li>
+                  <li>Delivered end-to-end platform across iOS, Android, and web, supporting multi-user livestreams</li>
                   <li>Drove roadmap decisions aligned with user behavior insights and monetization strategies.</li>
                 </ul>
               </div>
@@ -86,7 +83,6 @@ export default function Home() {
                 <ul className="ml-4 list-disc space-y-1 text-sm text-zinc-600 dark:text-zinc-400">
                   <li>Designed, built, and deployed high-performance web and mobile applications using React and Flutter.</li>
                   <li>Advised clients on digital strategy, backend architecture, and UI/UX optimization.</li>
-                  <li>Implemented secure payment integrations and CMS solutions tailored to client workflows.</li>
                 </ul>
               </div>
 
@@ -99,12 +95,9 @@ export default function Home() {
                   Jun 2015 - Jan 2017
                 </p>
                 <p className="mb-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  Led adtech operations for regional publisher and agency partnerships, ensuring scalable delivery of high-impact campaigns.
+                Led regional adtech operations across publisher and agency partnerships. Oversaw campaign delivery, optimization, and technical onboarding for partners. 
                 </p>
-                <ul className="ml-4 list-disc space-y-1 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li>Managed production teams across multiple markets, overseeing campaign setup, optimization, and delivery.</li>
-                  <li>Partnered with creative agencies to design rich media experiences that drove measurable engagement.</li>
-                </ul>
+                
               </div>
 
               {/* Investible.vc */}
@@ -116,13 +109,10 @@ export default function Home() {
                   Oct 2014 - June 2015
                 </p>
                 <p className="mb-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  Led the technical build of a private investment platform connecting high-growth startups with accredited investors.
+                Built and launched an invite-only investment platform connecting high-growth startups with accredited investors. Led product design, system architecture, and engineering delivery from concept to deployment. Collaborated with investment and due-diligence teams to streamline deal evaluation workflows.
+
                 </p>
-                <ul className="ml-4 list-disc space-y-1 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li>Designed and launched a secure, data-driven crowdfunding system.</li>
-                  <li>Collaborated with due diligence teams to streamline startup profile workflows and deal evaluation.</li>
-                  <li>Established product roadmap, tech stack, and cloud infrastructure from the ground up.</li>
-                </ul>
+               
               </div>
 
               {/* InSkin - Tech Account Manager */}
@@ -134,13 +124,9 @@ export default function Home() {
                   Apr 2013 - Oct 2014
                 </p>
                 <p className="mb-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  Oversaw integration and performance optimization for regional digital ad campaigns.
+                Managed technical integrations for new publishers and agencies. Collaborated with creative teams to deliver high-impact digital ad formats and optimize campaign performance across APAC.
                 </p>
-                <ul className="ml-4 list-disc space-y-1 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li>Negotiated and executed publisher partnerships across APAC.</li>
-                  <li>Provided technical onboarding and support to new partners.</li>
-                  <li>Built automation scripts for campaign setup, reducing manual overhead and launch time.</li>
-                </ul>
+        
               </div>
 
               {/* fluid */}
@@ -152,13 +138,9 @@ export default function Home() {
                   Oct 2010 - Apr 2013
                 </p>
                 <p className="mb-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  Led technology and production at one of Hong Kong's leading digital agencies (later acquired by PwC).
+                Led engineering and digital production at one of Hong Kong’s leading agencies (later acquired by PwC). Directed multi-disciplinary teams delivering large-scale digital campaigns for enterprise clients. Defined technical standards, oversaw budgets, and introduced agile delivery practices.
                 </p>
-                <ul className="ml-4 list-disc space-y-1 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li>Directed cross-disciplinary teams in delivering branding and marketing campaigns for enterprise clients.</li>
-                  <li>Managed multi-million HKD project budgets, timelines, and client relationships.</li>
-                  <li>Implemented digital strategy and technical architecture for high-traffic marketing platforms.</li>
-                </ul>
+               
               </div>
             </section>
 
