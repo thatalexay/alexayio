@@ -17,12 +17,12 @@ export const experiences: ExperienceItem[] = [
         name: "Brekky.news",
         url: "https://brekky.news",
         description:
-          "News aggregation platform using clustering and timeline generation to group related stories.",
+          "News aggregation platform using clustering and timeline generation to group related stories. MVP built in 1 week.",
       },
       {
         name: "CHAD",
         url: "https://chitchad.com",
-        description: "Multi-user AI chat platform enabling collaborative conversations with LLMs.",
+        description: "Multi-user AI chat platform enabling collaborative conversations with LLMs. MVP built in 6 weeks.",
       },
     ],
   },
