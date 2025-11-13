@@ -41,11 +41,11 @@ export const experiences: ExperienceItem[] = [
   {
     company: "Freelance",
     role: "Full Stack Developer",
-    period: "Jun 2017 - Dec 2018",
+    period: "Jun 2017 - Present",
     description: "Delivered full-cycle development projects for ecommerce and retail clients.",
     highlights: [
-      "Designed, built, and deployed high-performance web and mobile applications using React and Flutter.",
-      "Advised clients on digital strategy, backend architecture, and UI/UX optimization.",
+      "Helped local businesses modernize ecommerce solutions and social media strategies",
+      "Helped DesignerCon launch their own NFT project as part of their new VIP ticketing system",
     ],
   },
   {
