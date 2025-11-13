@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import SkillsSection from "./components/SkillsSection";
 import ExperienceSection from "./components/ExperienceSection";
 import EducationSection from "./components/EducationSection";
+import PrintButton from "./components/PrintButton";
 import { experiences, education, skills, personalInfo } from "./data/resume";
 
 export default function Home() {
@@ -135,6 +136,7 @@ export default function Home() {
 
         <Footer />
       </div>
+      <PrintButton />
       </div>
     </>
   );

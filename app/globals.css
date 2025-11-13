@@ -42,6 +42,9 @@ a:hover{
   @page {
     size: A4;
     margin: 1cm;
+    /* Remove browser default headers/footers */
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   body {
