@@ -49,32 +49,32 @@ export const experiences: ExperienceItem[] = [
     ],
   },
   {
-    company: "InSkin (Hong Kong, Singapore)",
+    company: "InSkin",
     role: "Technical Operations Manager",
     period: "Jun 2015 - Jan 2017",
     description:
-      "Expanded publisher network by 200% and increased ad inventory by 500% across APAC.Led regional adtech operations across publisher and agency partnerships. Oversaw campaign delivery, optimization, and technical onboarding for partners.",
+      "Expanded publisher network by 200% and increased ad inventory by 500% across APAC. Led regional adtech operations across publisher and agency partnerships. Oversaw campaign delivery, optimization, and technical onboarding for partners.",
   },
   {
-    company: "Investible.vc (Hong Kong)",
+    company: "Investible.vc",
     role: "CTO",
     period: "Oct 2014 - June 2015",
     description:
       "Built and launched an invite-only investment platform connecting high-growth startups with accredited investors. Led product design, system architecture, and engineering delivery from concept to deployment. Collaborated with investment and due-diligence teams to streamline deal evaluation workflows.",
   },
   {
-    company: "InSkin (Hong Kong, Singapore)",
+    company: "InSkin",
     role: "Technical Account Manager",
     period: "Apr 2013 - Oct 2014",
     description:
       "Managed technical integrations for new publishers and agencies. Collaborated with creative teams to deliver high-impact digital ad formats and optimize campaign performance across APAC.",
   },
   {
-    company: "fluid (Hong Kong)",
+    company: "fluid",
     role: "Development and Technology Head",
     period: "Oct 2010 - Apr 2013",
     description:
-      "Led development and digital production at one of Hong Kong's leading agencies (later acquired by PwC). Directed multi-disciplinary teams delivering large-scale digital campaigns for enterprise clients.",
+      "Led development and digital production team at one of the leading creative agencies (later acquired by PwC). Directed multi-disciplinary teams delivering large-scale digital campaigns for enterprise clients.",
   },
 ];
 
