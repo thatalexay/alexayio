@@ -20,7 +20,7 @@ export const experiences: ExperienceItem[] = [
           "News aggregation platform using clustering and timeline generation to group related stories. MVP built in 1 week.",
       },
       {
-        name: "CHAD",
+        name: "chitchad.com",
         url: "https://chitchad.com",
         description: "Multi-user AI chat platform enabling collaborative conversations with LLMs. MVP built in 6 weeks.",
       },
