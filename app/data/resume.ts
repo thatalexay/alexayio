@@ -29,7 +29,7 @@ export const experiences: ExperienceItem[] = [
   },
   {
     company: "Exchvnge / Livfie Inc",
-    role: "CoFounder",
+    role: "CoFounder & CTO",
     period: "Jan 2019 - Present",
     description:
       "Built from ideation to scaling a livestream commerce platform for vintage fashion, connecting independent sellers with global audiences. Led technical vision, product development, and analytics strategy.",
