@@ -10,20 +10,20 @@ export const experiences: ExperienceItem[] = [
       "Advised local businesses on scaling digital presence and modernizing ecommerce infrastructure. Designed and launched multiple AI-driven applications.",
     highlights: [
       "Defined technical strategy and product roadmap for client transformation projects.",
-      "Architected and deployed production-ready AI applications including:",
+      "Architected and deployed production-ready AI applications:",
     ],
     projects: [
       {
         name: "chitchad.com",
         url: "https://chitchad.com",
-        description: "Multi-user AI chat platform enabling collaborative conversations with LLMs.",
+        description: "Multi-user AI chat platform enabling collaborative conversations with multiple LLMs.",
       },
-      {
+/*       {
         name: "Brekky.news",
         url: "https://brekky.news",
         description:
           "News aggregation platform using clustering and timeline generation to group related stories. ",
-      },
+      }, */
       
     ],
   },
@@ -110,7 +110,7 @@ export const skills: Skill[] = [
   },
   {
     title: "Tech Stack",
-    description: "React, React Native, Flutter, NextJS, GCP, AWS, SQL, MongoDB, Docker",
+    description: "React, React Native, Flutter, NextJS, GCP, AWS, SQL, PostgreSQL, MongoDB, Docker",
   },
   {
     title: "AI",
