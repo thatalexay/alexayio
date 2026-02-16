@@ -7,41 +7,42 @@ export const experiences: ExperienceItem[] = [
     role: "Consultant / Fractional CTO",
     period: "Sept 2024 - Present",
     description:
-      "Advised local businesses on scaling digital presence and modernizing ecommerce infrastructure. Designed and launched multiple AI-driven applications exploring LLM integration and generative interfaces.",
+      "Advised local businesses on scaling digital presence and modernizing ecommerce infrastructure. Designed and launched multiple AI-driven applications.",
     highlights: [
       "Defined technical strategy and product roadmap for client transformation projects.",
       "Architected and deployed production-ready AI applications including:",
     ],
     projects: [
       {
+        name: "chitchad.com",
+        url: "https://chitchad.com",
+        description: "Multi-user AI chat platform enabling collaborative conversations with LLMs.",
+      },
+      {
         name: "Brekky.news",
         url: "https://brekky.news",
         description:
-          "News aggregation platform using clustering and timeline generation to group related stories. MVP built in 1 week.",
+          "News aggregation platform using clustering and timeline generation to group related stories. ",
       },
-      {
-        name: "chitchad.com",
-        url: "https://chitchad.com",
-        description: "Multi-user AI chat platform enabling collaborative conversations with LLMs. MVP built in 6 weeks.",
-      },
+      
     ],
   },
   {
     company: "Exchvnge / Livfie Inc",
-    role: "Co Founder",
+    role: "CoFounder",
     period: "Jan 2019 - Present",
     description:
-      "Built and scaled a livestream commerce platform for vintage fashion, connecting independent sellers with global audiences. Led technical vision, product development, and analytics strategy.",
+      "Built from ideation to scaling a livestream commerce platform for vintage fashion, connecting independent sellers with global audiences. Led technical vision, product development, and analytics strategy.",
     highlights: [
       "Implemented referral system that increased MAU by 20% in a 2 week period.",
-      "Led development team to deliver end-to-end platform across iOS, Android, and web, supporting multi-user livestream sessions",
+      "Led lean development team to deliver end-to-end platform across iOS, Android, and web, supporting multi-user livestream sessions and analytics.",
       "Drove roadmap decisions aligned with user behavior insights and monetization strategies.",
     ],
   },
   {
     company: "Freelance",
     role: "Full Stack Developer",
-    period: "Jun 2017 - Present",
+    period: "Jun 2017 - Jan 2019",
     description: "Delivered full-cycle development projects for ecommerce and retail clients.",
     highlights: [
       "Helped local businesses modernize ecommerce solutions and social media strategies",
